@@ -1,4 +1,29 @@
 # AgentXAgent is a program that combines the best features of AutoGT, Cataclysm, Wolverine.py, BabyAGI, TeenageAGI, JARVIS/HuggingGPT, and oobabooga text gen UI to create a powerful, adaptive, and efficient AI tool. AgentXAgent has the capability to create specialized agents for tasks, save them as persona profiles, and continuously fine-tune them for better performance using Hugging Face models and tools.
+AutoGT:
+- Modular architecture
+- Efficient token usage by leveraging local models
+
+Cataclysm programming tool:
+- Advanced programming capabilities
+
+Wolverine.py:
+- Robust error handling and debugging capabilities
+
+BabyAGI:
+- Efficient model fine-tuning process
+- Core functionalities for creating specialized agents
+
+TeenageAGI:
+- Continuous learning and improvement after each task
+- Task-specific finetuning
+
+JARVIS/HuggingGPT:
+- Integration with Hugging Face models and tools
+- Pre-trained models for various tasks
+
+oobabooga text gen UI:
+- Persona profile saving and management
+- User-friendly interface
 
 AgentXAgent_v2/
 │
