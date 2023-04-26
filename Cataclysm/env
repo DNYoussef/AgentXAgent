@@ -1,0 +1,5 @@
+PLUNKYLIB_LOGS_DIR = "./logs/plunkylib"
+PLUNKYLIB_BASE_DIR = "./datafiles/plunkylib"
+CATACLYSM_BASE_DIR = "./datafiles/cataclysm"
+
+OPENAI_API_KEY = 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
