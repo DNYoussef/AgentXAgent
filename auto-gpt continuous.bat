@@ -1,0 +1,1 @@
+start cmd.exe /c "python main.py --gpt3only --continuous"
