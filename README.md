@@ -8,32 +8,39 @@ Agent X Agent is focused on developing a decentralized network of specialized AI
 
 **Key Features:**
 
-Modular and expandable architecture
-Optimized task delegation and load balancing
-Standardized communication protocols
-AI-assisted agent creation
-Advanced security measures
-Robust error handling and recovery
-Streamlined user interface
-Performance benchmarking and monitoring
-Open-source development and community involvement
+1. Modular and expandable architecture
+2. Optimized task delegation and load balancing
+3. Standardized communication protocols
+4. AI-assisted agent creation
+5. Advanced security measures
+6. Robust error handling and recovery
+7. Streamlined user interface
+8. Performance benchmarking and monitoring
+9. Open-source development and community involvement
 
 
 **System Components:**
 
 Local Models: Store local AI models for easy access and integration.
+
 Persona Agents: Manage individual persona agents, each with their own memory subfolders.
+
 Tools and Libraries: Centralize external tools, libraries, and APIs for easy dependency management.
+
 Interface: Organize interface files, including the streamlined user interface and other interface-related files.
+
 Documentation: Store user guides, API references, and other project documentation for easy access.
 
 
 **Workflow:**
 
 Launch the user-friendly Oobabooga UI and choose a local AI model or offload computations through APIs.
-Access additional tabs: Agent X Agent and Townhall Mode.
-Set goals for the AI village in the Agent X Agent tab.
-Simulate discussions between different persona agents in Townhall Mode.
+
+Access additional tabs: "Agent X Agent" and "Townhall Mode".
+
+Set goals for the AI village in the "Agent X Agent" tab.
+
+Simulate discussions between different persona agents in "Townhall Mode".
 
 **Backend Process:**
 
