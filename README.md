@@ -2,21 +2,21 @@
 
 Abstract: The Agent X Agent project aims to create an AI village of specialists, consisting of autonomous programs that collaborate, communicate, and learn through a structured framework. The project incorporates existing AI models and tools such as GPT-4, Hugging Face, and Lang chain, and introduces preloaded persona agents like MindSmith and CodeBender for seamless agent creation and integration.
 
-Introduction:
+**Introduction:**
 
 Agent X Agent is focused on developing a decentralized network of specialized AI agents working together to efficiently solve complex tasks while continually learning and adapting to improve performance over time. The project leverages existing AI models, tools, and platforms like GPT-4, Hugging Face, and Lang chain, and introduces the Oobabooga UI for interacting with local models, as well as preloaded persona agents like MindSmith and CodeBender. The system is designed with modularity and expandability in mind, enabling seamless integration of new AI models, tools, and libraries. With advanced task delegation, load balancing, and standardized communication protocols, Agent X Agent ensures optimal collaboration and efficiency among persona agents.
 
 **Key Features:**
 
-Modular and expandable architecture
-Optimized task delegation and load balancing
-Standardized communication protocols
-AI-assisted agent creation
-Advanced security measures
-Robust error handling and recovery
-Streamlined user interface
-Performance benchmarking and monitoring
-Open-source development and community involvement
+*Modular and expandable architecture
+*Optimized task delegation and load balancing
+*Standardized communication protocols
+*AI-assisted agent creation
+*Advanced security measures
+*Robust error handling and recovery
+*Streamlined user interface
+*Performance benchmarking and monitoring
+*Open-source development and community involvement
 
 
 **System Components:**
@@ -57,12 +57,12 @@ Agents extract information from the conversation and add it to their personal me
 
 **Preloaded Persona Agents:**
 
-1. MindSmith: A persona agent specializing in creating other persona agents.
-2. CodeBender: An expert programmer persona agent, proficient in integration using the Cataclysm programming tool and the Wolverine debugging tool.
-3. DataMiner: A data analysis and visualization expert persona agent
-4. Visionary: A persona agent skilled in computer vision and image processing tasks
-5. CyberSentry: A cybersecurity and threat analysis expert persona agent
-6. Linguist: A persona agent specialized in natural language processing and translation tasks.
+*1. MindSmith: A persona agent specializing in creating other persona agents.
+*2. CodeBender: An expert programmer persona agent, proficient in integration using the Cataclysm programming tool and the Wolverine debugging tool.
+*3. DataMiner: A data analysis and visualization expert persona agent
+*4. Visionary: A persona agent skilled in computer vision and image processing tasks
+*5. CyberSentry: A cybersecurity and threat analysis expert persona agent
+*6. Linguist: A persona agent specialized in natural language processing and translation tasks.
 
 
 **Conclusion:**
