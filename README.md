@@ -1,4 +1,4 @@
-Agent X Agent: An AI Village of Specialists with Oobabooga UI, MindSmith, and CodeBender
+**Agent X Agent: An AI Village of Specialists**
 
 Abstract: The Agent X Agent project aims to create an AI village of specialists, consisting of autonomous programs that collaborate, communicate, and learn through a structured framework. The project incorporates existing AI models and tools such as GPT-4, Hugging Face, and Lang chain, and introduces preloaded persona agents like MindSmith and CodeBender for seamless agent creation and integration.
 
@@ -6,7 +6,7 @@ Introduction:
 
 Agent X Agent is focused on developing a decentralized network of specialized AI agents working together to efficiently solve complex tasks while continually learning and adapting to improve performance over time. The project leverages existing AI models, tools, and platforms like GPT-4, Hugging Face, and Lang chain, and introduces the Oobabooga UI for interacting with local models, as well as preloaded persona agents like MindSmith and CodeBender. The system is designed with modularity and expandability in mind, enabling seamless integration of new AI models, tools, and libraries. With advanced task delegation, load balancing, and standardized communication protocols, Agent X Agent ensures optimal collaboration and efficiency among persona agents.
 
-Key Features:
+**Key Features:**
 
 Modular and expandable architecture
 Optimized task delegation and load balancing
@@ -17,38 +17,45 @@ Robust error handling and recovery
 Streamlined user interface
 Performance benchmarking and monitoring
 Open-source development and community involvement
-System Components:
+
+
+**System Components:**
 
 Local Models: Store local AI models for easy access and integration.
 Persona Agents: Manage individual persona agents, each with their own memory subfolders.
 Tools and Libraries: Centralize external tools, libraries, and APIs for easy dependency management.
 Interface: Organize interface files, including the streamlined user interface and other interface-related files.
 Documentation: Store user guides, API references, and other project documentation for easy access.
-Workflow:
+
+
+**Workflow:**
 
 Launch the user-friendly Oobabooga UI and choose a local AI model or offload computations through APIs.
 Access additional tabs: Agent X Agent and Townhall Mode.
 Set goals for the AI village in the Agent X Agent tab.
 Simulate discussions between different persona agents in Townhall Mode.
-Backend Process:
 
-Upon receiving a task, the Overmind AI evaluates existing specialized persona agents to determine if they can accomplish the task with an 80% success rate.
-If no suitable agent is found, the preloaded MindSmith persona agent creates a new agent, and CodeBender translates it into a functional persona agent compatible with Lang chain and Hugging Face.
-The chosen or created agent breaks the task into subtasks and delegates them efficiently using advanced task delegation algorithms to appropriate persona agents or requesting new ones from MindSmith and CodeBender.
-Agents use standardized communication protocols to collaborate and learn from each other.
-Each agent uses a local model to think and GPT-4 for criticism and improvement, reducing token cost.
-Learning Mechanism:
+**Backend Process:**
+
+1.  Upon receiving a task, the Overmind AI, accessing GPT4, evaluates existing specialized persona agents to determine if they can accomplish the task with an 80% success rate.
+2.  If no suitable agent is found, the preloaded MindSmith persona agent creates a new agent, and CodeBender translates it into a functional persona agent compatible with Lang chain and Hugging Face.
+3.  The chosen or created agent breaks the task into subtasks and delegates them efficiently using advanced task delegation algorithms to appropriate persona agents or requesting new ones from MindSmith and CodeBender.
+4.  Agents use standardized communication protocols to collaborate and learn from each other.
+5.  Each agent uses a local model to think and GPT-4 for criticism and improvement, reducing token cost.
+
+**Learning Mechanism:**
 
 Each persona agent has its own memory folder, storing data and learning from GPT-4 criticisms.
 The agents gradually improve and specialize in specific problem-solving areas and tools, such as Hugging Face and Lang chain.
 The agents retain their learning, even when switching between base models or local models.
-Townhall Mode:
+
+**Townhall Mode:**
 
 Users input prompts, problems, or goals to discuss with selected persona agents.
 The AI agents and user engage in a simulated conversation to share knowledge and insights.
 Agents extract information from the conversation and add it to their personal memory files, enabling them to learn from each other.
 
-Preloaded Persona Agents:
+**Preloaded Persona Agents:**
 
 1. MindSmith: A persona agent specializing in creating other persona agents.
 2. CodeBender: An expert programmer persona agent, proficient in integration using the Cataclysm programming tool and the Wolverine debugging tool.
@@ -58,12 +65,9 @@ Preloaded Persona Agents:
 6. Linguist: A persona agent specialized in natural language processing and translation tasks.
 
 
-Conclusion:
+**Conclusion:**
 
-The Agent X Agent project, along with Oga Boga, MindSmith, and CodeBender, offers a promising approach to developing an AI village of specialists capable of efficiently tackling complex tasks and learning from each other. By leveraging existing AI models, tools, and platforms, the project aims to create a powerful and adaptive network of autonomous programs.
-
-
-To create an organized and efficient file architecture for the Agent X Agent project, we should consider the various components and their interactions. Here's a step-by-step outline of a suggested file architecture and the reasoning behind it:
+The Agent X Agent project offers a promising approach to developing an AI village of specialists capable of efficiently tackling complex tasks and learning from each other. By leveraging existing AI models, tools, and platforms, the project aims to create a powerful and adaptive network of autonomous programs. To create an organized and efficient file architecture for the Agent X Agent project, we should consider the various components and their interactions. Here's a step-by-step outline of a suggested file architecture and the reasoning behind it:
 
 1. **Project Root**: The root folder will contain the main application files, configuration files, and subdirectories for the different components of the system.
 
