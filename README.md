@@ -57,12 +57,12 @@ Agents extract information from the conversation and add it to their personal me
 
 **Preloaded Persona Agents:**
 
-1. MindSmith: A persona agent specializing in creating other persona agents.
-2. CodeBender: An expert programmer persona agent, proficient in integration using the Cataclysm programming tool and the Wolverine debugging tool.
-3. DataMiner: A data analysis and visualization expert persona agent
-4. Visionary: A persona agent skilled in computer vision and image processing tasks
-5. CyberSentry: A cybersecurity and threat analysis expert persona agent
-6. Linguist: A persona agent specialized in natural language processing and translation tasks.
+1.  MindSmith: A persona agent specializing in creating other persona agents.
+2.  CodeBender: An expert programmer persona agent, proficient in integration using the Cataclysm programming tool and the Wolverine debugging tool.
+3.  DataMiner: A data analysis and visualization expert persona agent
+4.  Visionary: A persona agent skilled in computer vision and image processing tasks
+5.  CyberSentry: A cybersecurity and threat analysis expert persona agent
+6.  Linguist: A persona agent specialized in natural language processing and translation tasks.
 
 
 **Conclusion:**
