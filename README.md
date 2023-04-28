@@ -150,7 +150,7 @@ Project_Root/
 │   │   ├── metrics                             
 │   │   ├── config.json
 │   │   └── persona_profile.json
-│   ├──  datasmith.py             # DATASMITH - data analysis and visualization
+│   ├──  dataminer.py             # DATAMINER - data analysis and visualization
 │   │   ├── model/
 │   │   ├── metrics                            
 │   │   ├── config.json
