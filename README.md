@@ -76,76 +76,84 @@ Agents extract information from the conversation and add it to their personal me
 
 The Agent X Agent project offers a promising approach to developing an AI village of specialists capable of efficiently tackling complex tasks and learning from each other. By leveraging existing AI models, tools, and platforms, the project aims to create a powerful and adaptive network of autonomous programs. To create an organized and efficient file architecture for the Agent X Agent project, we should consider the various components and their interactions. Here's a step-by-step outline of a suggested file architecture and the reasoning behind it:
 
-1. **Project Root**: The root folder will contain the main application files, configuration files, and subdirectories for the different components of the system.
+To create an organized and efficient file architecture for the Agent X Agent project, we should consider the various components and their interactions. Here's a step-by-step outline of a suggested file architecture and the reasoning behind it:
 
-2. **Local Models**: Create a "local_models" folder to store local AI models, which can be easily accessed by the Oga Boga text UI.
+**Project Root**: The root folder will contain the main application files, configuration files, and subdirectories for the different components of the system.
 
-    Reasoning: Keeping local models in a separate folder allows for easy model management and updates, and provides a clear structure for accessing models during runtime.
+**Local Models:** Create a "local_models" folder to store local AI models, which can be easily accessed by the Oobabooga UI.
 
-3. **Persona Agents**: Create a "persona_agents" folder to store individual persona agent folders.
+Reasoning: Keeping local models in a separate folder allows for easy model management and updates, and provides a clear structure for accessing models during runtime.
 
-    Reasoning: Separating persona agents into their own directory ensures that the project remains organized and easy to navigate as new agents are added or removed.
+**Persona Agents:** Create a "persona_agents" folder to store individual persona agent folders.
 
-4. **Agent Memory**: Within each persona agent folder, create a "memory" subfolder to store each agent's memory files.
+Reasoning: Separating persona agents into their own directory ensures that the project remains organized and easy to navigate as new agents are added or removed.
 
-    Reasoning: Maintaining a separate memory folder for each agent helps keep their unique data organized and easily accessible for learning and improvement.
+**Agent Memory:** Within each persona agent folder, create a "memory" subfolder to store each agent's memory files.
 
-5. **Tools and Libraries**: Create a "tools_and_libraries" folder to store external tools, libraries, and APIs, such as Hugging Face, Lang chain, and GPT-4.
+Reasoning: Maintaining a separate memory folder for each agent helps keep their unique data organized and easily accessible for learning and improvement.
 
-    Reasoning: Centralizing tools and libraries in one folder simplifies dependency management and facilitates updating or integrating new tools as needed.
+**Tools and Libraries:** Create a "tools_and_libraries" folder to store external tools, libraries, and APIs, such as Hugging Face, Lang chain, and GPT-4.
 
-6. **Interface**: Create an "interface" folder to store the Oga Boga text UI and other interface-related files.
+Reasoning: Centralizing tools and libraries in one folder simplifies dependency management and facilitates updating or integrating new tools as needed.
 
-    Reasoning: Organizing interface files separately makes it easier to maintain and update the user interface without affecting other system components.
+**Interface:** Create an "interface" folder to store the Oobabooga UI and other interface-related files.
 
-7. **Documentation**: Create a "documentation" folder to store user guides, API references, and other project documentation.
+Reasoning: Organizing interface files separately makes it easier to maintain and update the user interface without affecting other system components.
 
-    Reasoning: Keeping documentation in a dedicated folder helps ensure that users and developers have easy access to the information they need to understand and contribute to the project.
+**Documentation:** Create a "documentation" folder to store user guides, API references, and other project documentation.
+
+Reasoning: Keeping documentation in a dedicated folder helps ensure that users and developers have easy access to the information they need to understand and contribute to the project.
+
+**GitHub Integration:** To enable automatic updating from GitHub and uploading of code to GitHub, use Git hooks to trigger actions like pulling new changes or pushing local changes to the remote repository. This can be done by setting up appropriate pre-commit, post-commit, and post-merge hooks in the project's Git configuration.
+
+**Workspace File:** Create a "workspace" folder where persona agents can do their test and doodle work. This folder should be separate from the main project structure, allowing agents to work on tasks without cluttering the main project files.
+
+**Finished Outputs:** Create a "finished_outputs" folder where the persona agents can place their completed work. This allows for easy identification and organization of final outputs generated by the agents.
+
 
 In summary, the file architecture would look like this:
 
 ```
 Project_Root/
  │
- ├── oobabooga_text_gen_UI/
+ ├── oobabooga_UI/
  │
  ├── models/
  │   ├── local_models/
  │   └── huggingface.py
  │
  ├── persona_agents/
- │   ├── __init__.py
- │   ├── mindsmith.py
+ │   ├── mindsmith/
  │   │   ├── model/
  │   │   ├── memory/
  │   │   ├── config.json
  │   │   ├── metrics
  │   │   └── persona_profile.json
- │   ├── codebender.py
+ │   ├── codebender/
  │   │   ├── model/
  │   │   ├── memory/
  │   │   ├── config.json
  │   │   ├── metrics
  │   │   └── persona_profile.json
- │   ├── dataminer.py
+ │   ├── dataminer/
  │   │   ├── model/
  │   │   ├── memory/
  │   │   ├── config.json
  │   │   ├── metrics
  │   │   └── persona_profile.json
- │   ├── visionary.py
+ │   ├── visionary/
  │   │   ├── model/
  │   │   ├── memory/
  │   │   ├── config.json
  │   │   ├── metrics
  │   │   └── persona_profile.json
- │   ├── cybersentry.py
+ │   ├── cybersentry/
  │   │   ├── model/
  │   │   ├── memory/
  │   │   ├── config.json
  │   │   ├── metrics
  │   │   └── persona_profile.json
- │   └── linguist.py
+ │   └── linguist/
  │       ├── model/
  │       ├── memory/
  │       ├── config.json
@@ -163,7 +171,15 @@ Project_Root/
  │   ├── transformers.py
  │   ├── pytorch.py
  │   ├── tensorflow.py
- │   └── huggingface.py
+ │   ├── huggingface.py
+ │   ├── knowledge_graphs_and_ontologies/
+ │   ├── reinforcement_learning_libraries/
+ │   ├── data_processing_and_visualization_libraries/
+ │   ├── speech_and_audio_processing_libraries/
+ │   ├── web_scraping_and_data_extraction_libraries/
+ │   ├── automl_libraries/
+ │   ├── apis_and_sdks/
+ │   └── version_control_and_ci_cd_tools/
  │
  ├── tests/
  │   ├── __init__.py
@@ -188,7 +204,14 @@ Project_Root/
  │   ├── user_guide.md
  │   ├── installation_guide.md
  │   └── api_reference.md
- ├── .gitignore
+ │
+ ├── .git/
+ │   ├── hooks/
+ │
+ ├── workspace/
+ │     └── finished_outputs/
+ │
  ├── LICENSE
  ├── README.md
  └── setup.py
+
