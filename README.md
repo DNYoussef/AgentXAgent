@@ -159,15 +159,23 @@ Project_Root/
  │   ├── patch_manager.py
  │   ├── token_manager.py
  │   ├── langchain.py
+ │   ├── allennlp.py
+ │   ├── transformers.py
+ │   ├── pytorch.py
+ │   ├── tensorflow.py
  │   └── huggingface.py
  │
  ├── tests/
  │   ├── __init__.py
- │   ├── test_agent_factory.py
+ │   ├── test_langchain.py
  │   ├── test_cataclysm_programmer.py
  │   ├── test_huggingface.py
  │   ├── test_local_model.py
  │   ├── test_persona_agent.py
+ │   ├── test_pytorch.py
+ │   ├── test_transformers.py
+ │   ├── test_tensorflow.py
+ │   ├── test_allennlp.py
  │   └── test_wolverine_debugger.py
  │
  ├── town_hall/
